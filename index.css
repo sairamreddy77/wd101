@@ -1,0 +1,37 @@
+body{
+    background-image: url("white-digital-matrix-binary-code-numbers-background_1017-25332.avif");
+    background-size: 100%; 
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+div.form{
+    color: rgb(225, 225, 28);
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+form#form{
+    margin: 40px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+input#submit{
+    width: 150px;
+    padding:7px ;
+    font-size: 16px;
+    background-color: green;
+}
+input#name{
+    color: black;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+
+
