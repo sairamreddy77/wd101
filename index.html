@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="form">
+                <h2 class="text-3xl text-center font-bold">Registration Form</h2>
+                <form id="form" method="post">
+                    <label>Name</label>
+                    <br>
+                    <input required type="text" name="name" id="name" placeholder="Enter your name"  >
+                    <br><br>
+
+                    <label>Email</label>
+                    <br>
+                    <input required type="email" name="email" id="email" placeholder="Enter valid email" >
+                    <br><br>
+
+                    <label >Password</label>
+                    <br>
+                    <input required type="password" name="pass" id="pass" placeholder="Enter your Password" >
+                    <br><br>
+
+                    <label>Date of Birth</label>
+                    <br>
+                    <input required type="date" name="dob" id="dob" >
+                    <br><br>
+
+                    <input required type="checkbox">
+                    <label >Accept Terms & Conditions</label>
+                    <br><br>
+                    
+                    <input required type="submit" value="Submit"  name="sub" id="submit"  >
+
+                </form>
+            </div>
+        </div>
+        
+        <div class="container mx-auto my-10 p-10 bg-white shadow-lg rounded-lg">
+            <h2 class="text-2xl font-bold mb-5 mt-10">Registered Users</h2>
+          
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Password</th>
+                  <th>Dob</th>
+                  <th>Accepted terms?</th>
+                </tr>
+              </thead>
+              <tbody id="userTableBody"></tbody>
+            </table>
+        </div>
+        
+    <script src="./index.js"></script>
+    </body>
+</html>
